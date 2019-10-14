@@ -1,0 +1,308 @@
+* /* All Components */
+{
+    margin  : 0;
+    padding : 0;
+}
+
+#headText1
+{
+    float       : right;
+    margin-top  : 32px;
+    margin-right: 16rem;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size   : 24px;
+    color       : #444444;
+}
+
+#headText2
+{
+    float           : right;
+    margin-right    : 16rem;
+    font-family     : Arial, Helvetica, sans-serif;
+    font-size       : 20px;
+    margin-top      : -20px;
+    color           : #444444;
+}
+
+.background
+{
+    display             : block;
+    position            : absolute;
+    top                 : 0;
+    left                : 0;
+    z-index             : 1;
+    width               : 100%;
+    height              : 100%;
+    background          : url("../assets/background.jpeg") no-repeat;
+    background-size     : cover;
+    background-position : center center;
+}
+
+.overlay
+{
+    position        : absolute;
+    width           : 100%;
+    height          : 100%;
+    z-index         : 2;
+    background      : #0098D7;
+    background-size : cover;
+    opacity         : 0.3;
+}
+
+.header-container
+{
+    display         : block;
+    position        : fixed;
+    width           : 100%;
+    height          : 114px;
+    top             : 0;
+    z-index         : 4;
+    background-color: #ffffff;
+    border-bottom   : 1px solid #c9c9c9;
+}
+
+#ribbon
+{
+    float       : left;
+    margin-left : 16rem;
+    width       : auto;
+    height      : 100px;
+    top         : 0;
+}
+
+#logo
+{
+    float       : left;
+    margin-top  : 4px;
+    margin-left : 15px;
+    width       : 150px;
+    height      : auto;
+}
+
+#headText
+{
+    float       : right;
+    margin-top  : 40px;
+    margin-right: 16rem;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size   : 24px;
+    color       : #444444;
+}
+
+.wrapper
+{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+#login
+{
+    background: #fff;
+    position: absolute;
+    max-width: 100%;
+}
+
+.login
+{
+    display: block;
+    margin: auto;
+    border: 1px solid #c9c9c9;
+    zoom: 1;
+    opacity: 1;
+}
+
+.login-head
+{
+    display: block;
+    position: relative;
+    min-height: 128px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.logo
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+}
+
+.card-container
+{
+    display                 : grid;
+    grid-template-columns   : repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap                : 4em;
+    padding                 : 4rem;
+    margin-top              : 8rem;
+    margin-left             : 16rem;
+    margin-right            : 16rem;
+    justify-content         : space-between;
+    z-index                 : 3;
+}
+
+.card-container-login
+{
+    display                 : grid;
+    grid-template-columns   : repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap                : 4em;
+    padding                 : 4rem;
+    margin-top              : 8rem;
+    margin-left             : 42rem;
+    margin-right            : 42rem;
+    justify-content         : space-between;
+    z-index                 : 3;
+}
+
+.card-container-pilih
+{
+    display                 : grid;
+    grid-template-columns   : repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap                : 4em;
+    padding                 : 4rem;
+    margin-top              : 16rem;
+    margin-left             : 16rem;
+    margin-right            : 16rem;
+    justify-content         : space-between;
+    z-index                 : 3;
+}
+
+.cards
+{
+    box-sizing      : border-box;
+    position        : relative;
+    text-align      : center;
+    padding         : 24px;
+    z-index         : 3;
+    box-shadow      : 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition      : 0.3s;
+    background-color: #ffffff;
+    border          : 2px solid #c9c9c9;
+}
+
+.cards:hover
+{
+    box-shadow  : 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fotoCalon
+{
+    margin-top  : 24px;
+    width       : auto;
+    height      : 360px;
+}
+
+#imgLogo
+{
+    width: 250px;
+    height: auto;
+}
+
+.container
+{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size   : 24px;
+    padding     : 2px 16px;
+    margin-top  : 24px;
+    text-align  : center;
+}
+
+#user-input
+{
+    margin: 40px 16px 0;
+}
+
+#user-code
+{
+    margin: 20px 16px 0;
+}
+
+#user-pass
+{
+    margin: 20px 16px 0;
+}
+
+input[type="text"]
+{
+    display: block;
+    margin: -10px;
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+}
+
+input[type="password"]
+{
+    display: block;
+    margin: -10px;
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+}
+
+.button-primary
+{
+    background-image: linear-gradient(to bottom,#34aee2 0,#0098d7 99%);
+    color: #ffffff;
+    width: 100%;
+    height: 44px;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-primary-back
+{
+    background-image: linear-gradient(to bottom,#ffffff 0,#c9c9c9 99%);
+    color: #444444;
+    width: 100%;
+    height: 44px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.linkCard
+{
+    text-decoration : none;
+    color           : #444444;
+}
+
+.footer-container
+{
+    position        : fixed;
+    width           : 100%;
+    height          : 38px;
+    bottom          : 0;
+    z-index         : 4;
+    background-color: #0098D7;
+    border-top      : 1px solid #c9c9c9;
+}
+
+#systemDate
+{
+    text-align: center;
+    margin-top  : 10px;
+    color       : #ffffff;
+}
